@@ -1,0 +1,13 @@
+###A simple python script that randomly generates a reason to be grateful for today###
+
+import random
+
+gratitude_list = ["a great AI focus session", "staying calm in the midst of the storms", "resisting overwhelm and panic", "facing the challenges head on instead of shutting down", "keeping a good attitude inspite of everything"]
+
+power_words = ["Resilience", "Determination", "Hope", "Faith", "Grit", "Tenacity"] 
+    
+gratitude = random.choice(gratitude_list)
+power_word = random.choice(power_words)
+
+print(f"Today I'm grateful for: {gratitude}")
+print(f"Today I embodied: {power_word}")
